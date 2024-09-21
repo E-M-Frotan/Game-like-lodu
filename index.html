@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gsme</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="Game.css" />
+    <script src="./Game.js" defer></script>
+  </head>
+  <body>
+    <div class="game">
+      <!-- section player 1 -->
+      <div class="player player-1">
+        <h2 id="player-1-title">Player 1</h2>
+        <p id="player-1-totolScore">0</p>
+        <div id="player-1-current">Current:</div>
+      </div>
+      <!-- section result -->
+      <div id="result">
+        <div>
+          <button id="new-game">🔄️ NEW GAME</button>
+        </div>
+        <div id="images"></div>
+        <div class="btns">
+          <button id="roll-dice">
+            <i class="fas fa-dice"></i>
+            ROLL DICE
+          </button>
+          <button id="hold">🔽 HOLD</button>
+        </div>
+      </div>
+      <!-- section player 2 -->
+      <div class="player player-2">
+        <h2 id="player-2-title">Player 2</h2>
+        <p id="player-2-totolScore">0</p>
+        <div id="player-2-current">Current:</div>
+      </div>
+    </div>
+  </body>
+</html>
